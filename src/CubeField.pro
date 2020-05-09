@@ -3,11 +3,6 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-
-INCLUDEPATH += C:/Coding/Librarys/include
-LIBS        += -LC:/Coding/Librarys/lib/32
-
-
 LIBS += -lmingw32 -lSDL2main -lSDL2 -lglew32 -lopengl32 -lgdi32 -mwindows
 
 SOURCES += main.cpp \
